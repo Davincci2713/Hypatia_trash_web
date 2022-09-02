@@ -1,0 +1,10 @@
+0
+amarillo
+azul
+blanco
+cafe
+morado
+multicolor
+naranja
+negro
+rojo
