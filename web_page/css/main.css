@@ -32,7 +32,7 @@ body{
 .slider .slide.active{
 
     clip-path: circle(150% at 0 50%);
-    transition: 2s;
+    transition: 1.5s;
 }
 
 .slider .slide img{
@@ -107,4 +107,10 @@ body{
   border-radius: 2px;
   box-shadow: 0 5px 25px rgb(1 1 1 /20%);
 
+}
+
+.navigation-visible .slide-icon.slide.active{
+
+
+  background: #4285f4;
 }
