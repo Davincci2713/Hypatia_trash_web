@@ -18,17 +18,15 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
 
+    <link rel="a" href="js/main.js"
+
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <div class="slider">
-      <input type="radio" name="radio-btn" id="radio1" />
-      <input type="radio" name="radio-btn" id="radio2" />
-      <input type="radio" name="radio-btn" id="radio3" />
-      <input type="radio" name="radio-btn" id="radio4" />
 
-      <div class="slide first">
+      <div class="slide active">
         <img src="img/carrito1.jpg" alt="" />
       </div>
       <div class="slide">
@@ -43,19 +41,22 @@
         <img src="img/carrito4.jpg" alt="" />
       </div>
 
-      <div class="navigation-auto">
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-        <div class="auto-btn4"></div>
+      <div class="navigation">
+
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+        
       </div>
 
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
+      <div class="navigation-visible">
+
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+
       </div>
+      
     </div>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
